@@ -21,6 +21,7 @@ header {
   border-bottom: 1px solid seashell;
   align-items: center;
   position: fixed;
+  background-color: black;
 }
 
 .flex-container {
@@ -46,3 +47,44 @@ nav span {
 }
 
 /* end of header section */
+
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin-left: auto;
+}
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  background-color: black;
+  text-align: center;
+}
+
+.content {
+  display: block;
+}
+
+#mission .content {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+
+/* end of main section */
+
+.item {
+  padding: 5px;
+}
+.items img {
+  height: 200px;
+  width: 300px;
+}
+
+.items span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
