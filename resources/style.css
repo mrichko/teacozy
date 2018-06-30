@@ -12,10 +12,7 @@ body {
 
 header {
   width: 100%;
-  font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
-  opacity: 0.9;
   z-index: 1;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -90,11 +87,9 @@ h2, h3, h4 {
   text-align: center;
 }
 
-.item {
-  padding: 5px;
-}
 .items img {
   height: 200px;
+  width: 300px;
   display: block;
   margin: 10px;
 }
@@ -104,6 +99,10 @@ h2, h3, h4 {
   padding: 5px;
   font-weight: bold;
   text-align: center;
+}
+
+.items {
+  padding: 5px;
 }
 
 /* Locations Section */
@@ -127,7 +126,7 @@ h2, h3, h4 {
   background-color: black;
   flex-direction: column;
   justify-content: center;
-  margin: 7px 20px;
+  margin: 15px 20px;
   padding: 10px;
   flex-basis: 280px;
 }
